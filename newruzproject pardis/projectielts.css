@@ -1,0 +1,358 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+        font-family: "Truculenta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+    
+}
+
+
+.ntop-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E31836;
+    gap: 250px;
+}
+
+.ntop-header img{
+    width: 120px;
+    height: 40px;
+    
+}
+
+.ntop-right, .ntop-left{
+    display: flex;
+}
+.ntop-right{
+    margin-top: 1px;
+}
+.rcs{
+ display: flex;
+ gap: 3px;
+
+}
+.rcs li{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.279) ;
+}
+.rcs li a, .nmenu li a {
+    color: white;
+}
+
+.rcs li:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.ntop-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 30px;
+   }
+   
+   .nmenu{
+       display: flex;
+       gap: 3px;
+       margin-top: 130px;
+       margin-left:-120px;
+   }
+   .nmenu li{
+       padding: 10px;
+       background-color: rgba(0, 0, 0, 0.279) ;
+       position: relative;
+   }
+   .nmenu li:hover{
+       background-color: rgb(87, 85, 85) ;
+   }
+   
+   .nmenu li.home{
+       background-color:  rgb(87, 85, 85);
+   }
+   
+   .sub-nowruz li, .sub-charshanbe li, .sub-sizdah li, .sub-Yalda li{
+    display: block;
+    background-color: rgb(87, 85, 85);
+  
+}
+
+.sub-nowruz, .sub-charshanbe, .sub-sizdah, .sub-Yalda{
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    margin-top: 15px;
+    padding:10px;
+   
+}  
+li.nowruz:hover .sub-nowruz, li.charshanbe:hover .sub-charshanbe, li.sizdah:hover .sub-sizdah, li.yalda:hover .sub-Yalda{
+    display: block;
+    background-color: rgb(87, 85, 85);
+}
+.sub-nowruz li a, .sub-charshanbe li a,.sub-sizdah li a,.sub-Yalda li a {
+    padding: 10px;
+  
+}
+.sub-nowruz li a:hover, .sub-charshanbe li a:hover, .sub-sizdah li a:hover, .sub-Yalda li a:hover{
+    background-color:rgb(153, 149, 149) ;
+    
+}
+
+.bottom{
+    margin-left: 10px;
+    width: 193vh;
+    height: 100vh;
+    background: black;
+    background-image: url('https://takeielts.britishcouncil.org/sites/default/files/styles/bc-landscape-1440x810/public/1200x675_ielts_blog_students_in_the_uk.png?itok=8awRfiDk');
+    background-position: center;
+ 
+}
+
+.whatis{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    background-color: #FFFFFF;
+    border-radius: 20px 5px 20px 5px;
+    text-align: center;
+    text-indent: 5px;
+}
+
+.whatis p{
+    margin-top: 5px;
+    text-align: justify;
+    padding: 30px;
+    margin-left: 10px;
+    color:  #333333;
+    font-size: 20px;
+}
+.whatis h1{
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 40px;
+    color:#333333;
+    text-align: left;
+}
+.whatis button{
+
+    margin-right: 100px;
+    padding: 15px;
+    width: 260px;
+    height: 55px;
+    background-color: #E31836;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.whatis button:hover{
+    background-color: rgb(52, 51, 51);
+}
+
+
+.text{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
+    width: 900px;
+    height: 100px;
+    margin-left: 300px;
+    text-align: center;
+    color: #333333;
+}
+
+.triangle{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: #33333362 solid;
+    border-width: 1px;
+    width: 920px;
+    margin-left: 300px;
+    justify-content: space-around;
+}
+
+.triangle a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.triangle a:hover{
+    text-decoration: underline;
+}
+.triangle svg{
+    width: 20px;
+    height: 20px;
+}
+
+.bottom-main{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 220px;
+    justify-content: center;
+    text-align: center;
+}
+.bottom-main img{
+   width: 400px;
+   height: 400px;
+}
+.one1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 210px;
+    height: 360px;
+}
+
+.two2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 210px;
+    height: 360px;
+}
+
+.three3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 210px;
+    height: 360px;
+}
+
+.four4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 210px;
+    height: 360px;
+}
+
+.five5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 210px;
+    height: 360px;
+}
+
+.six6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 210px;
+    height: 360px;
+}
+
+.bottom-main a{
+    color: #5F5F5F;
+    font-size: 22px;
+    text-decoration: underline;
+    width: 300px;
+    text-align: left;
+}
+
+.one1 a, .two2 a, .three3 a, .four4 a, .five5 a, .six6 a{
+    margin-left: -100px;
+}
+
+.bottom-main a:hover{
+    color: #E31836;
+}
+.bottom-main p{
+    font-size: 17px;
+    text-align: justify;
+    width: 400px;
+    height: 100px;
+    color:#494949;
+}
+footer{
+    background-color: #414042;
+    margin-top: 200px;
+    height: 450px;
+}
+footer img{
+    margin-top: 40px;
+    margin-left: 95px;
+    width: 120px;
+    height: 37px;
+}
+
+.aboutus{
+    display: flex;
+    gap: 60px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.connect{
+    margin-left: 100px;
+}
+.connect p{
+    color: #E3253D;
+    margin-left: 20px;
+}
+.connect svg{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.aboutIL li , .partner li, .contactus li {
+ margin-bottom: 20px;
+}
+
+.aboutIL li a , .partner li a, .contactus li a {
+    color:#FFFFFF ;
+}
+
+.line{
+    margin-top: 30px;
+    margin-left: 90px;
+    background-color: #fff;
+    padding: 0.3px;
+    width: 1300px;
+}
+
+.contact{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+
+}
+.contact a{
+font-size: 14px;
+ color: white;
+ margin-left: 20px;
+}
+
+.credit p{
+    margin-top: 50px;
+    margin-left: 90px;
+    color: white;
+    width: 1000px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+footer li a:hover{
+  text-decoration: underline;
+}
